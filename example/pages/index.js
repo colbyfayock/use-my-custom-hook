@@ -15,10 +15,13 @@ export default function Index() {
   const repositoryUrlDisplay = repositoryExists && repositoryUrl.split('://')[1];
 
   const hookSettings = {
-    message: 'Hello, custom hook!'
+    type: 'gif',
+    width: 500,
+    height: 500,
+    count: 2
   }
 
-  const { message } = usePlaceCage(hookSettings);
+  const cage = usePlaceCage(hookSettings);
 
   return (
     <main>
@@ -97,17 +100,23 @@ export default function Index() {
         <pre>
           <code>
 {`const hookSettings = {
-  message: 'Hello, custom hook!'
+  type: 'gif',
+  width: 500,
+  height: 500,
+  count: 2
 }
 
-const { message } = usePlaceCage(hookSettings);`}
+const cage = usePlaceCage(hookSettings);`}
           </code>
         </pre>
         <p>
           <strong>Output:</strong>
         </p>
         <p>
-          { message }
+          { JSON.stringify(cage) }
+        </p>
+        <p>
+          { cage.map((img, i) => <img key={`img-${i}`} width={200} src={img} />)}
         </p>
       </section>
 

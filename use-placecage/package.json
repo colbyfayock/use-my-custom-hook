@@ -1,7 +1,7 @@
 {
   "name": "use-placecage",
   "version": "1.0.1",
-  "description": "A starter for creating a new React hook",
+  "description": "A React Hook to generate placecage.com placeholder image URLs",
   "author": {
     "name": "Colby Fayock",
     "email": "hello@colbyfayock.com",
@@ -30,9 +30,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/colbyfayock/use-placecage"
+    "url": "https://github.com/colbyfayock/use-my-custom-hook"
   },
   "bugs": {
-    "url": "https://github.com/colbyfayock/use-placecage/issues"
+    "url": "https://github.com/colbyfayock/use-my-custom-hook/issues"
   }
 }
