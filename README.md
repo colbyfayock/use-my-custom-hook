@@ -1,15 +1,17 @@
-# Custom Hook Demo
+# Custom React Hook
 
-Learn how to create your own with [How to Create a Custom React Hook and Publish it to npm](https://www.youtube.com/watch?v=Q0xVnRanXVk)
+Demo for tutorial [How to Create a Custom React Hook and Publish it to npm](https://www.youtube.com/watch?v=Q0xVnRanXVk)
 
-## Getting started locally
-* `yarn install`
-* `yarn develop`
-* 🚀
+🚀 See Demo: https://use-my-custom-hook.netlify.com/
 
-## Spin up your own hook!
-Check out [useCustomHook](https://github.com/colbyfayock/use-custom-hook)
+📝 Article: https://www.freecodecamp.org/news/how-to-create-a-custom-react-hook-and-publish-it-to-npm/
+
+📺 YouTube: https://www.youtube.com/watch?v=Q0xVnRanXVk
 
 ## More tutorials and walkthroughs
-* [Follow me on Twitter](https://twitter.com/colbyfayock)
-* [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
+
+🐦 [Follow me on Twitter](https://twitter.com/colbyfayock)
+
+📺 [Subscribe on YouTube](https://www.youtube.com/colbyfayock)
+
+✉️ [Sign Up for My Newsletter](https://colbyfayock.com/newsletter)
